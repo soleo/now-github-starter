@@ -15,6 +15,6 @@ if [ "${TRAVIS_TEST_RESULT}" = "1" ]; then
   exit
 fi
 
-now --token $NOW_TOKEN
+now --public --token $NOW_TOKEN
 
 npm run lh -- $NOW_URL
