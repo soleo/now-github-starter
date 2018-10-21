@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Travis CI Tests'",
+    "build": "echo 'build project'",
     "now-build": "echo 'Built on Travis CI'",
     "lh": "lighthouse-ci"
   },
