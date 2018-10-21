@@ -24,6 +24,7 @@
     "lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git"
   },
   "dependencies": {
+    "now": "^11.4.6",
     "serve": "^10.0.2"
   }
 }
