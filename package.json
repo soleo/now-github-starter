@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo 'Travis CI Tests'",
     "build": "echo 'build project'",
+    "start": "serve",
     "now-build": "echo 'Built on Travis CI'",
     "lh": "lighthouse-ci"
   },
@@ -21,5 +22,8 @@
   "homepage": "https://github.com/soleo/now-github-starter#readme",
   "devDependencies": {
     "lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git"
+  },
+  "dependencies": {
+    "serve": "^10.0.2"
   }
 }
