@@ -16,5 +16,5 @@ if [ "${TRAVIS_TEST_RESULT}" = "1" ]; then
 fi
 
 now --public --token $NOW_TOKEN
-
+curl $NOW_URL
 npm run lh -- $NOW_URL
